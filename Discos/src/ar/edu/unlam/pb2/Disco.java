@@ -22,13 +22,7 @@ public class Disco {
 	public void setRadioInterior(Double radioInterior) {
 		this.radioInterior = radioInterior;
 	}
-	//CONSTRUCTOR
-	public Disco (Double radioExt,Double radioInt)
-	{
-		setRadioExterior(radioExt);
-		setRadioInterior(radioInt);
-		
-	}
+	
 	//METODOS
 	public Double calcularPerimetroInterior()
 	{
