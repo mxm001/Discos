@@ -29,7 +29,6 @@ public class Disco {
 		setRadioInterior(radioInt);
 		
 	}
-	
 	//METODOS
 	public Double calcularPerimetroInterior()
 	{
@@ -43,6 +42,6 @@ public class Disco {
 	
 	public Double calcularSuperficie()
 	{
-		return Math.PI*Math.pow(this.radioExterior-this.radioInterior,2.00);
+		return Math.PI* Math.pow((this.radioExterior-this.radioInterior),2.00);
 	}
 }
